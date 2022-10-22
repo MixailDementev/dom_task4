@@ -12,3 +12,5 @@ pi = 4 * (sum(1/x for x in range(1, 500000+ 1, 4)) +
             sum(-1/x for x in range(3, 500000 + 1, 4)))
 print(round(pi, d))
 
+from math import pi
+print(pi)
